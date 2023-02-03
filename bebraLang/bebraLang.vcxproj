@@ -127,11 +127,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="LexicalAnalyzer.cpp" />
+    <ClCompile Include="Lexeme.cpp" />
+    <ClCompile Include="LexicalAnalyser.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="SyntaxAnalyser.cpp" />
+    <ClCompile Include="SyntaxExpection.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="LexicalAnalyzer.h" />
+    <ClInclude Include="Lexeme.h" />
+    <ClInclude Include="LexicalAnalyser.h" />
+    <ClInclude Include="SyntaxAnalyser.h" />
+    <ClInclude Include="SyntaxExpection.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

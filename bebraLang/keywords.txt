@@ -1,0 +1,15 @@
+int
+double
+float
+for
+while
+foreach
+byte
+uint
+bool
+boolean
+if
+else
+return
+break
+continue
